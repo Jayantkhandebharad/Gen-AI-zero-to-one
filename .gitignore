@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / tooling
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
