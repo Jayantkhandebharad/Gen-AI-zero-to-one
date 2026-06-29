@@ -9,6 +9,21 @@ ideas behind modern language models from first principles, with runnable code.
 Each post on the site is paired with a script or notebook here, so you can run
 and tweak everything yourself.
 
+## How this fits together
+
+I keep the writing and the code in separate places, cross-linked:
+
+- **The writing** lives on my [portfolio site](https://jayantkhd.vercel.app/blog) — each post
+  explains the idea with text, code, diagrams, and quick multiple-choice checks.
+- **The code** lives in public repos like this one — **one repo per series**. Posts link out to
+  the matching file here; each file links back to its post.
+- **Your progress is yours.** As you read on the site, your completed posts, quiz answers, and
+  per-series "% complete" are saved in *your own browser* (localStorage) — no account, no server,
+  nothing tracked. It sticks on that browser across visits, but it doesn't follow you to another
+  device, and clearing site data resets it.
+
+This repo covers the **Transformers from Scratch** series; new series get their own repos.
+
 ## Series — Transformers from Scratch
 
 | # | Post | Code |
