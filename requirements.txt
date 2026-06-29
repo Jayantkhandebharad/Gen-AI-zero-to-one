@@ -1,6 +1,14 @@
-torch>=2.0
+# Core
+datasets>=2.14
+huggingface_hub>=0.20
 numpy>=1.24
+
+# Transformers lessons
+torch>=2.0
 matplotlib>=3.7
+
+# Notebooks
 jupyter>=1.0
-# Optional — exact tokenization in 01_tokenization.ipynb
+
+# Optional — exact tokenization in transformers/tokenization.ipynb
 tiktoken>=0.5
