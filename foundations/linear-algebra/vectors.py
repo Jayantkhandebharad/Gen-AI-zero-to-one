@@ -39,6 +39,13 @@ def main() -> None:
     print(f"  scores shape: {scores.shape}")
     print(np.round(scores, 2))
 
+    print("\nLinear independence — how many directions are real?")
+    v1 = np.array([1, 0, 0])
+    v2 = np.array([0, 1, 0])
+    v3 = np.array([2, 1, 0])                 # = 2*v1 + v2  -> redundant
+    V = np.stack([v1, v2, v3])
+    print(f"  rank of [v1, v2, v3] = {np.linalg.matrix_rank(V)}  (3 vectors, only 2 real directions)")
+
 
 if __name__ == "__main__":
     main()

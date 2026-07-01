@@ -2,8 +2,8 @@
 
 Companion code for the lesson **[Linear Algebra, Intuitively](https://jayantkhd.vercel.app/blog/gen-ai-zero-to-one/linear-algebra)** — *Gen AI: Zero to One · Phase 0*.
 
-Three ideas — vectors, the dot product, and matrix multiplication — and how they add up to
-what a Transformer computes in attention.
+Vectors, the dot product, matrix multiplication, and linear independence / rank — and how they
+add up to what a Transformer computes in attention (and why LoRA works).
 
 ## Run
 
@@ -18,5 +18,5 @@ Prints toy-embedding similarities, a linear-layer projection, and an attention-s
 
 | File | What it is |
 |------|------------|
-| `vectors.py` | Vectors, cosine similarity, a linear layer, and `Q @ K.T` attention scores in ~30 lines |
+| `vectors.py` | Vectors, cosine similarity, a linear layer, `Q @ K.T` attention scores, and matrix rank |
 | `linear_algebra.ipynb` | The same, cell by cell |
