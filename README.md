@@ -30,6 +30,7 @@ The writing and the code live in separate places, cross-linked:
 | Lesson | Code |
 |--------|------|
 | [Data Management](https://jayantkhd.vercel.app/blog/gen-ai-zero-to-one/data-management) | [`foundations/data-management/`](./foundations/data-management) |
+| [Linear Algebra, Intuitively](https://jayantkhd.vercel.app/blog/gen-ai-zero-to-one/linear-algebra) | [`foundations/linear-algebra/`](./foundations/linear-algebra) |
 
 ### Transformers from scratch
 
@@ -60,11 +61,15 @@ jupyter lab
 ```
 .
 ├── foundations/
-│   └── data-management/
+│   ├── data-management/
+│   │   ├── README.md
+│   │   ├── data_utils.py            # load / split / convert helper
+│   │   ├── data_management.ipynb    # full walkthrough
+│   │   └── prompt-data-helper.md
+│   └── linear-algebra/
 │       ├── README.md
-│       ├── data_utils.py            # load / split / convert helper
-│       ├── data_management.ipynb    # full walkthrough
-│       └── prompt-data-helper.md
+│       ├── vectors.py               # vectors, similarity, matmul, attention
+│       └── linear_algebra.ipynb
 ├── transformers/
 │   ├── tokenization.ipynb           # how text becomes token IDs
 │   ├── self_attention.py            # scaled dot-product attention in PyTorch
